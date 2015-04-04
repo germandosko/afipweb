@@ -1,0 +1,51 @@
+2015/04/04 15:38:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:38:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:39:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:39:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:42:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:42:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:12:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:12:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:20:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:20:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:38:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:38:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:39:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:39:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'afipweb_db.tbl_customer' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:42:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 15:42:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:12:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:12:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:20:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 17:20:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_customer`.
+2015/04/04 18:40:15 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.loginNotActiv" is not defined.' in C:\xampp\htdocs\afipweb_yii\yii_framework\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\auth\CWebUser.php(160): CComponent->__set('loginNotActiv', true)
+#1 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\YiiBase.php(220): CWebUser->__set('loginNotActiv', true)
+#2 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\afipweb_yii\afipweb\protected\views\layouts\main.php(35): CModule->__get('user')
+#5 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CBaseController.php(214): COutputProcessor->run()
+#11 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\afipweb_yii\afipweb\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#16 C:\xampp\htdocs\afipweb_yii\afipweb\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#17 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#18 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CWebApplication.php(282): CController->run('login')
+#22 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#23 C:\xampp\htdocs\afipweb_yii\yii_framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\afipweb_yii\afipweb\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/afipweb_yii/afipweb/index.php?r=site/login
+HTTP_REFERER=https://localhost/afipweb_yii/afipweb/index.php?r=reseller
+---
